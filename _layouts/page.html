@@ -1,0 +1,33 @@
+---
+layout: 'default'
+---
+{% comment %}
+  Only output the sidebar if the current section has immediate children.
+{% endcomment %}
+{% assign section_has_children = false %}
+{% assign page_url_paths = page.url | split: '/' %}
+{% for html_page in site.html_pages %}
+  {% assign working_url = html_page.url | split: '/' %}
+  {% if page_url_paths[1] == working_url[1] and working_url.size > 3 %}
+    {% assign section_has_children = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<div class="container">
+  <div class="row">
+    {% if section_has_children %}
+      <div class="col-md-9 col-md-push-3">
+        {% include page/content.html %}
+      </div>
+
+      <div class="col-md-3 col-md-pull-9">
+        {% include page/sidebar.html %}
+      </div>
+    {% else %}
+      <div class="col-md-12">
+        {% include page/content.html %}
+      </div>
+    {% endif %}
+  </div>
+</div>

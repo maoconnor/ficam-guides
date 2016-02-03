@@ -1,0 +1,46 @@
+# Site settings
+title: FICAM Guides
+name: FICAM Guides
+email: icam@gsa.gov
+author:
+    name: FICAM
+description: FICAM Implementation Guides
+baseurl: '/ficam-guides'
+github_username:  lachellel
+highlighter: pygments
+
+exclude: [
+  Gemfile,
+  Gemfile.lock,
+  vendor/bootstrap/docs,
+  vendor/Font-Awesome/src
+]
+
+# Site data
+ficam_architecture_url: /ficam-arch/
+ficam_architecture_gh_url: /ficam-arch
+
+pki_playbook_url: /playbook-pki
+piv_playbook_url: /playbook-piv
+privileged_users_playbook_url: /playbook-privilege
+
+pki_playbook_gh_url: /playbook-pki
+piv_playbook_gh_url: /playbook-piv
+privileged_users_playbook_gh_url: /playbook-privilege
+
+# Build settings
+markdown: kramdown
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
