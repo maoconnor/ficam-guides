@@ -16,6 +16,8 @@ https://github.com/twbs/bootstrap.git
 
 https://github.com/FortAwesome/Font-Awesome.git
 
-If you need to init the submodules locally, use:
+_If_ you need to init the submodules locally, run the following from the command line:
 
-    git submodule init <path to submodule>
+    git submodule update --init vendor/Font-Awesome
+	git submodule update --init vendor/bootstrap
+	git submodule update --init vendor/bootstrap-sass
