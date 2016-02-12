@@ -20,12 +20,12 @@ exclude: [
 ficam_architecture_url: /ficam-arch/
 ficam_architecture_gh_url: /ficam-arch
 
-pki_playbook_url: /playbook-pki
-piv_playbook_url: /playbook-piv
+pki_playbook_url: /pki-guides
+piv_playbook_url: /piv-guides
 privileged_users_playbook_url: /playbook-privilege
 
-pki_playbook_gh_url: /playbook-pki
-piv_playbook_gh_url: /playbook-piv
+pki_playbook_gh_url: /pki-guides
+piv_playbook_gh_url: /piv-guides
 privileged_users_playbook_gh_url: /playbook-privilege
 
 # Build settings
