@@ -7,7 +7,7 @@ author:
 description: FICAM Implementation Guides
 baseurl: '/ficam-guides'
 github_username:  lachellel
-highlighter: pygments
+highlighter: rouge
 
 exclude: [
   Gemfile,
