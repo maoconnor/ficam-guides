@@ -42,7 +42,7 @@ We welcome contributions to the FICAM Playbooks in the form of requests, issues 
   * Open an Issue on this repository, identifying the content you would like to contribute
   * Limit each Issue to one content topic
   * Fork the repository
-  * Add a new Page or modify an existing Page with your suggested content, leveraging the [guidance document template](/piv-guides/template/) to maintain a consistent page structure across the playbooks.
+  * Add a new Page or modify an existing Page with your suggested content, leveraging the [guidance document template]({{site.github.repository_url}}/{{site.branch}}/pages/template/) to maintain a consistent page structure across the playbooks.
   * Submit a Pull Request, referencing the Issue Number
 
 If you would like to contribute to a specific playbook, navigate to that playbook and contribute through its repository. Direct changes and line edits to the content may be submitted through a "pull request" by clicking "Edit this page". You do not need to install any software to submit content. You can use GitHub's in-browser editor to edit files and submit a pull request for your changes to be merged.
