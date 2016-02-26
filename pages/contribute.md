@@ -19,33 +19,26 @@ permalink: /contribute/
         </div>
         <div class="panel-body" markdown="1">
 
-Thank you for considering contributing to our development of open and transparent FICAM guidance documents. If you're unsure of anything, just ask or submit edits through an issue or pull request. We appreciate any sort of contribution and are committed to transparency and collaboration.
+This site is for the collaborative development of the Federal Identity, Credential and Access Management Playbooks. 	
 
-The source repository exists [here]({{site.github.repository_url}}/{{site.branch}}/).
+#### How to Contribute
 
-We encourage you to read our [LICENSE]({{site.baseurl}}/license) and our [README]({{site.github.repository_url}}/{{site.branch}}/README.md), which exist within this repository.  
+Thank you for considering contributing to the development of open and transparent 
+FICAM guidance documents. To contribute to this site, please leverage the information provided below, and visit the GitHub repository which houses the source files for the site and exists [here]({{site.github.repository_url}}/{{site.branch}}/). If you have any questions, feel free to open an issue under the 'Issues' tab of the repository. Please note that opening issues or adding content to the repository will require the creation of a GitHub account.
 
-We welcome contributions to the FICAM Playbooks in the form of requests, issues and pages:  
+GitHub issues are the primary way of sharing information and discussing this site with the broader community. For example, they should be used for:
 
-* _Requests:_ You've identified a useful addition to the architecture which benefits USG Agencies
-  * Open an Issue on this repository
-  * State the recommendation
-  * Include any links or other information
-  * Discuss the request with other contributors  
+* _Suggestions:_ You would like to suggest an edit or addition to any existing pages or information on this site
+* _Corrections:_ You have identified a problem with existing information on the site and would like to discuss a correction
+* _Pages:_ You have identified a topic for a new guidance document that is not yet on the site that would be beneficial to the playbook
 
-* _Issues:_ You've identified an issue with the information
-  * Open an Issue on this repository
-  * Discuss the Issue with other contributors
-  * Follow the progress of the updates
+Each issue that you open should be named to clearly align with its primary topic, and tracked so that you can discuss the issue with other contributors and follow any updates. All suggestions and corrections should be stated clearly, with any links or other relevant information included in the issue.
 
-* _Pages:_ You'd like to contribute a Page and content
-  * Open an Issue on this repository, identifying the content you would like to contribute
-  * Limit each Issue to one content topic
-  * Fork the repository
-  * Add a new Page or modify an existing Page with your suggested content, leveraging the [guidance document template]({{site.github.repository_url}}/{{site.branch}}/pages/template/) to maintain a consistent page structure across the playbooks.
-  * Submit a Pull Request, referencing the Issue Number
+If you would like to contribute to a specific playbook, you should navigate to the Contribute page of that playbook for further directions. Direct changes and line edits to the content may be submitted by clicking 'Edit this page'. You do not need to install any software to submit content. You can use GitHub's in-browser editor to edit files and submit a pull request for your changes to be merged.
 
-If you would like to contribute to a specific playbook, navigate to that playbook and contribute through its repository. Direct changes and line edits to the content may be submitted through a "pull request" by clicking "Edit this page". You do not need to install any software to submit content. You can use GitHub's in-browser editor to edit files and submit a pull request for your changes to be merged.
+If at any point you have a question during the contribution process, do not hesitate to open an issue requesting clarification.
+
+We encourage you to read our [LICENSE]({{site.baseurl}}/license) and our [README]({{site.github.repository_url}}/tree/{{site.branch}}/README.md), which exist within this repository.  
 
 ####  General Practices
 This content is Vendor neutral. Marketing materials for Commercial Products should not be submitted. If you would like to contribute a page or content which includes Commercial Products and a specific references for development and engineering, please review the Commercial Product trademark or copyright guides from the Product Vendor and reference those guides in your Pull Request.  
