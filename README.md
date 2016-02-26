@@ -23,13 +23,13 @@ This project is in the worldwide [public domain](LICENSE.md).
 > All contributions to this project will be released under the CC0 dedication. By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.
 
 ### Special Thanks
-This site is based on GitHub Pages and Jekyll templates. The templates are based on [DOCter](https://github.com/cfpb/docter/) from [CFPB](http://cfpb.github.io/).  
 
-The README and LICENSE are based on [18F Pages](https://pages.18f.gov/).  
+This site was derived from the [NIEM.github.io](https://NIEM.github.io) site.  Thank you to the NIEM program and contributors for your open and transparent model, and your Sharing Spot. 
 
-Special thanks to the teams at [18F](https://18f.gsa.gov/), [18F Pages](https://pages.18f.gov/), and [US Digital Services Playbooks](https://playbook.cio.gov/) for their open and transparent model which benefits citizens, government, and technology.
 
-This site was derived from the [NIEM.github.io](https://NIEM.github.io) page. As such, it relies on the following **submodules**:
+### Considerations for local builds
+
+This site relies on the following **submodules**:
 
 ./vendor/bootstrap-sass
 
